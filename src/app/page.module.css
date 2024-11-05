@@ -1,0 +1,19 @@
+.mysection {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+
+  p {
+    background: green;
+
+    &:after {
+      content: " ";
+      padding: 1em;
+      background-color: rgb(210, 130, 130);
+    }
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
